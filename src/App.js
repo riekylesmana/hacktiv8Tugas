@@ -23,7 +23,7 @@ class App extends Component {
         <Provider store={store} >
             <Router>
                 <div className="main"> 
-                    <Switch>
+                    <Switch> 
                         <Route path='/login' component={Login}/> 
                         <Route path='/register' component={Register}/> 
                         <Route path='/profile' component={Profile}/> 
