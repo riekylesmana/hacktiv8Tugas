@@ -1,0 +1,128 @@
+.info{
+    font-size: 14px;
+    text-align:center;
+} 
+
+.login {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	background: #F7F7F7;
+}
+
+.login-card {
+    background: #fff;
+    width: 24rem;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.11);
+}
+
+.login .card-title {
+    background: #00b89c;
+    padding: 2rem; 
+}
+.login .card-title h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.login .content {
+    padding: 3rem 2.5rem 5rem;
+}
+
+.login .email, .login .password {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    margin-bottom: 1.75rem;
+    padding: 0.25rem 0;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    transition: all .5s;
+}
+
+.login .email, .login .password:hover {
+    border-color: $grey;
+}
+
+.login .email, .login .password:active, &:focus {
+    border-color: $primary;
+} 
+
+.login .checkbox {
+    color: $grey-light;
+    font-size: 0.8rem;
+}
+.login span {
+    margin-left: 0.5rem;
+} 
+
+.login a {
+    font-size: 0.8rem;
+}
+
+.login .options {
+    color: $grey-light;
+    margin-bottom: 1.5rem;
+}
+
+.login button {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: $primary;
+    border-radius: 4rem;
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: 2px solid #00b89c;
+    padding: 0.9rem 0 1.1rem;
+    transition: color .5s, border-color .5s;
+}
+.login button:hover, .login button:focus {
+    color: #00b89c;
+    border-color: #00b89c;
+}
+
+.login button:active {
+    transform: translateY(1px);
+} 
+
+.login label {
+	cursor: pointer;
+}
+
+.login .regular-checkbox {
+	display: none;
+}
+
+.login .regular-checkbox + label {
+	background-color: #fafafa;
+	border: 1px solid #00b89c;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+	padding: 7px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+}
+
+.login .regular-checkbox:checked + label {
+	background-color: #e9ecee;
+}
+
+.login .regular-checkbox:checked + label:after {
+	content: '\2714';
+	font-size: 11px;
+	position: absolute;
+	top: 0;
+	left: 3px;
+	color: #00b89c;
+}
+
+.login input:focus,
+.login select:focus,
+.login textarea:focus,
+.login button:focus {
+	outline: none;
+}
+ 

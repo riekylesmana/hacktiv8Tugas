@@ -1,0 +1,102 @@
+  
+    .header{
+        background:grey;
+        color:white;
+        height:45px;  
+        padding:0 20px 0 20px;  
+        display: flex;  
+        justify-content:space-between;
+        align-items: center;
+    } 
+    .logo{
+        font-size: 24px;
+    }
+    .login-button{
+        margin-left: 50%;
+    }
+    .event{
+        display: flex; 
+        height:172px;
+        margin:30px;  
+        padding: 10px;
+        background: lightgrey; 
+    }
+    .event-more{
+        margin:0 30px 0 30px;  
+        display: flex;  
+        justify-content:space-around;
+        flex-direction:column;
+    }
+    .event-more-row{
+        width:200px;
+        display: flex; 
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    .logo-event{
+        width: 160px;
+        height: 160px;
+        border: 1px black solid;
+    }
+    .event-detail-box{
+        margin:0 30px 0 30px;  
+        background: lightgrey;
+        padding: 10px;
+    }
+    .about-detail-box{
+        margin:0 30px 0 30px;   
+        padding: 10px;
+    }
+    .members-detail-box{
+        display: flex; 
+        align-items: center;
+        margin:0 30px 0 30px;   
+        background: lightgrey;
+        padding: 10px;
+    }
+    .members-image{ 
+        width: 20px;
+        height: 20px; 
+        padding: 10px;
+        border-radius: 55px;
+        background: grey;
+    }
+    .members-detail-text{ 
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+    }
+    .row-box-past-meetup{ 
+        display: flex;
+        justify-content:space-between;
+        margin:0 30px 0 30px;
+    }
+    .box-past-meetup{ 
+        width: 265px; 
+        height: 150px;
+        background:lightgrey;
+        padding:10px;
+    }
+    .button-view{
+        background:grey;
+        color:white; 
+        padding:5px 20px 5px 20px;
+    }
+    .button-join{ 
+        background:grey;
+        color:white; 
+        padding:5px 20px 5px 20px;
+    }
+    .title-box{
+        margin-left:5px;
+        font-size: 18px; 
+        font-weight: 600;
+    }
+    .footer{
+        margin-top:30px;
+        border-top:1px black solid;
+        height:70px;
+        display: flex;   
+        justify-content:center;
+        align-items: center;
+    }

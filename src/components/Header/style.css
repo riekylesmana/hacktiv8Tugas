@@ -1,0 +1,30 @@
+  
+.header{
+    background:grey;
+    color:white;
+    height:45px;  
+    padding:0 20px 0 20px;  
+    display: flex;  
+    justify-content:space-between;
+    align-items: center;
+} 
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+}
+.login-button{
+    margin-left: 50%;
+}  
+.headernav .link {
+  color: #FFF;
+}
+.headernav .link:hover {
+   color: #00F
+}   
+
+.logo-text{
+font-size: 24px;
+}
+.navbar-item .link{
+    color:black;
+}
